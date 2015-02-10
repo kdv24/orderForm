@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Order Form</title>
+</head>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<body>
+		<h1>Order Form</h1>
+
+		<form action="receipt.php">
+
+			<div class="firstName">
+				<label for="firstName">First Name</label>
+				<input id="firstName" name="firstName" class="input-size" type="text"> 
+			</div>
+			<div class="lastName">
+				<label for="lastName">Last Name</label>
+				<input id="lastName" name="lastName" class="input-size" type="text">
+			</div>
+			<div class="street-address">
+				<label for="streetAddress">Street Address</label>
+				<input id="streetAddress" name="streetAddress" class="input-size" type="text">
+			</div>
+			<div class="city-state-zip">
+				<label for="cityStateZip">City, State, and Zip</label>
+				<input id="cityStateZip" name="cityStateZip" class="input-size" type="text">
+			</div>			
+			<div class="product-input">
+				<label for="productName">Product Name</label>
+				<input id="productName" name="productName" class="input-size" type="text">
+
+			<button type="submit" class="btn btn-success">Place my order</button>
+		</form>
+</body>	
+</div>
+
